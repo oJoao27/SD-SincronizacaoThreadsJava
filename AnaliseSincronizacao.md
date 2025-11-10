@@ -30,9 +30,9 @@ Sem sincronização, o resultado é imprevisível e inconsistente. Cada execuç�
 
 ---
 
-## 🔒 Atividade Prática 02 – Sincronização com Monitores
+## Atividade Prática 02 – Sincronização com Monitores
 
-📄 **Log analisado:**  
+**Log analisado:**  
 `log_monitor_1.txt`
 
 **Trecho do log:**
@@ -52,14 +52,14 @@ Consumidor usando Monitor: 1
 - Há alternância perfeita entre produtor e consumidor.
 - O resultado é determinístico, sem sobreposição de acessos.
 
-✅ **Conclusão:**  
+**Conclusão:**  
 A sincronização via **monitores** garante **exclusão mútua** e elimina as condições de corrida.
 
 ---
 
-## ⚡ Atividade Prática 03 – Sincronização com Eventos
+## Atividade Prática 03 – Sincronização com Eventos
 
-📄 **Log analisado:**  
+**Log analisado:**  
 `log_eventos_1.txt`
 
 **Trecho do log:**
