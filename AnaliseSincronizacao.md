@@ -37,14 +37,14 @@ Sem sincronização, o resultado é imprevisível e inconsistente. Cada execuç�
 
 **Trecho do log:**
 
-Consumidor usando Monitor: 0
-Produtor usando Monitor: 0
-Armazenar Iniciando...
-Armazenar Finalizando...
-Produtor usando Monitor: 1
-Carregar Iniciando...
-Carregar Finalizando...
-Consumidor usando Monitor: 1
+- Consumidor usando Monitor: 0
+- Produtor usando Monitor: 0
+- Armazenar Iniciando...
+- Armazenar Finalizando...
+- Produtor usando Monitor: 1
+- Carregar Iniciando...
+- Carregar Finalizando...
+- Consumidor usando Monitor: 1
 
 
 **Análise:**
@@ -64,10 +64,10 @@ A sincronização via **monitores** garante **exclusão mútua** e elimina as co
 
 **Trecho do log:**
 
-Produtor usando Eventos: 0
-Consumidor usando Eventos: 0
-Produtor usando Eventos: 1
-Consumidor usando Eventos: 1
+- Produtor usando Eventos: 0
+- Consumidor usando Eventos: 0
+- Produtor usando Eventos: 1
+- Consumidor usando Eventos: 1
 
 **Análise:**
 - O código utiliza comunicação direta entre threads por meio de **eventos (`wait()` / `notify()`)**.
